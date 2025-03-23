@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffc2a0;
+}
+.card {
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 20vh;
+  padding: 30px;
+}
+.heading {
+  color: #ff8542;
+  font-size: 42px;
+  margin-top: 10px;
+  text-align: center;
+}
+.todo-card {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 20px;
+}

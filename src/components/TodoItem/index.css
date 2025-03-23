@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 9vh;
+}
+
+.title {
+  font-size: 24px;
+  font-family: 'Roboto';
+  color: black;
+  font-weight: 400;
+}
+.buttton {
+  background-color: transparent;
+  border: 2px solid #ff0b37;
+  color: #ff0b37;
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+  font-size: 23px;
+}
