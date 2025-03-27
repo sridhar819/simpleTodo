@@ -25,7 +25,7 @@
 }
 .heading {
   color: #ff8542;
-  font-size: 42px;
+  font-size: 32px;
   margin-top: 10px;
   text-align: center;
 }
@@ -36,4 +36,28 @@
   justify-content: space-around;
   list-style-type: none;
   margin-top: 20px;
+}
+
+.add-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.add-form input {
+  border: 1px solid #bfbfbf;
+  outline: none;
+  font-size: 14px;
+  border-radius: 10px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.add-btn {
+  border: none;
+  outline: none;
+  background-color: rgb(27, 135, 230);
+  color: #ffffff;
+  padding: 0 20px;
+  border-radius: 10px;
 }
